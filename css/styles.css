@@ -99,11 +99,12 @@ ul {
   margin-right: auto;
   position: relative;
   margin-bottom: 94px;
+  background-image: url(/webstudio/images/img-fon.jpg);
 }
 .main-container {
   position: absolute;
-  width: 696px;
-  margin-left: 452px;
+  width: 1600px;
+  height: 600px;
 }
 .main-title {
   color: var(--second-color);
@@ -130,6 +131,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-top: 30px;
 }
 .benefits-list {
   display: flex;
@@ -161,6 +163,14 @@ ul {
 }
 .profession-signature {
   color: var(--fourth-color);
+}
+.social-link {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.social-item:hover,
+.social-item:focus {
+  /* background: var(--third-color); */
 }
 .footer {
   background-color: var(--fifth-color);
@@ -289,11 +299,18 @@ ul {
 .mrg-94 {
   margin-bottom: 94px;
 }
+.mrg-t94 {
+  margin-top: 94px;
+}
+.wd-94 {
+  height: 708px;
+}
 .team-dsc {
   text-align: center;
-  margin-top: 0;
+  margin-top: 30px;
+  margin-bottom: 16px;
   line-height: 10px;
-  padding: 30px;
+  padding: 0px;
 }
 .team-foto-dsc {
   background-color: var(--second-color);
@@ -304,4 +321,14 @@ ul {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.customers-wrap {
+  width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 94px;
+  /* text-align: center; */
+}
+.customers-list {
+  display: flex;
+  justify-content: space-between;
 }
